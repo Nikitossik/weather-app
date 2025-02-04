@@ -1,8 +1,39 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Weather App
 
-Currently, two official plugins are available:
+A simple Weather App that detects current localization and shows current weather in the region and a weekly forecast, using OpenWeatherMap API. Localization search also enabled using HERE autosuggesting and geocoding APIs.    
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live preview
+
+(GitHub Pages)[https://nikitossik.github.io/weather-app/]
+
+## Main technologies used
+
+- Development stack: React, SWR, TailwindCSS
+- APIs: [OpenWeatherMap API](https://openweathermap.org/api/one-call-3), [HERE Locatin Services](https://www.here.com/docs/)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Nikitossik/weather-app
+```
+
+Go to the project directory
+
+```bash
+  cd weather-app
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Run app
+
+```bash
+  npm run dev
+```
