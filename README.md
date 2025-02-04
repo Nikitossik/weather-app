@@ -5,12 +5,12 @@ A simple Weather App that detects current localization and shows current weather
 
 ## Live preview
 
-(GitHub Pages)[https://nikitossik.github.io/weather-app/]
+[GitHub Pages](https://nikitossik.github.io/weather-app/)
 
 ## Main technologies used
 
 - Development stack: React, SWR, TailwindCSS
-- APIs: [OpenWeatherMap API](https://openweathermap.org/api/one-call-3), [HERE Locatin Services](https://www.here.com/docs/)
+- APIs: [OpenWeatherMap API](https://openweathermap.org/api/one-call-3), [HERE Location Services](https://www.here.com/docs/)
 
 ## Run Locally
 
